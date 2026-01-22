@@ -1,0 +1,19 @@
+[project]
+name = 'Bitcoin-Yield-Optimization-Strategy'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.Bitcoin-Yield-Optimization-Strategy]
+path = 'contracts/Bitcoin-Yield-Optimization-Strategy.clar'
+clarity_version = 3
+epoch = 3.0
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
